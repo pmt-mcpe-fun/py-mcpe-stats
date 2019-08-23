@@ -18,10 +18,7 @@ Run `pip install py_mcpe_stats` in your terminal and it will download the latest
 -----
 #### Run Directly
 
-Simply execute `python main.py` in the root folder of this project.
-
-It will automatically query the host and port that are set in the `main.py` file.
-
+Simply execute `python main.py pe.mineplex.com 19132` in the root folder of this project.
 
 #### Use as a module
 

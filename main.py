@@ -4,11 +4,12 @@ main.py
 
 Copyright (c) 2016 w-gao
 """
+import sys
 
 from py_mcpe_stats import Query
 
-host = 'localhost'
-port = 19132
+host = sys.argv[1]
+port = int(sys.argv[2])
 
 q = Query(host, port)
 server_data = q.query()
